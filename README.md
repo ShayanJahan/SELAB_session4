@@ -8,7 +8,7 @@ Then, we are going to fake it! In our test case, the height and the width of the
 
 In the end, we will fix the computeArea method, such that it will return height * width. Now, it will pass all three cases. Using TDD method, we have implemented computeArea method.
 
-After implementing computeArea, we will add getter and setter for both height and width.
+After implementing computeArea, we will add a getter and setter for both height and width.
 
 
 ## Questions
@@ -21,11 +21,23 @@ After implementing computeArea, we will add getter and setter for both height an
  
 2) Open-Closed Principle (OCP)
 
-
+هر کلاس باید برای گسترش باز، و برای تغییر دادن بسته باشد. این به این معنی است که بتوانیم به راحتی قابلیت به کلاس اضافه کنیم بدون آنکه نیاز به تغییر در کد داشته باشیم. یکی از راه‌های رعایت این اصل، رعایت اصل پنجم است. 
 
 3) Liskov Substitution Principle (LSP)
 
+این اصل می‌گوید کلاس بچه باید بتواند جایگزین کلاس پدر شود. این موضوع به این معنی است که اگر شرط‌‌های اولیه و شرط‌های نهایی هر متد را در نظر بگیریم، متد‌های بچه نباید شرط‌های اولیه‌ی بیشتر (قوی‌تر) یا شرط‌های نهایی کمتر (ضعیف‌تر) داشته باشد.
+
 4) Interface Segregation Principle (ISP)
+
+داشتن تعداد بیشتری واسط مشخص بسیار بهتر از آن است که یک واسط جنرال داشته باشیم. این اصل تاکید بر مشخص و منسجم بودن اینترفیس‌ها دارد.
 
 5) Dependency Inversion Principle (DIP)
 
+این اصل ارتباط نزدیکی با اصل دوم دارد و یکی از راه‌های ارضا کردن اصل دوم،، ارضای این اصل است. این اصل می‌گوید که باید تمام تلاش‌ها انجام شود که تا جای ممکن کلاس‌هایی که قرار است از آن‌ها در کلاس‌های دیگر استفاده شود (برای مثال با ارث‌بری) ابسترکت (حالت کلی و با جزییات کمتر) باشند.
+
+
+### 2. In which of the main steps of designing software SOLID principles will be used?
+
+### 3. TDD defines tests at the beginning of designing software; does it make any contradiction?
+
+### 4. In the experiment, how would designing the models change if we did not need to change the dimensions of the rectangle?
