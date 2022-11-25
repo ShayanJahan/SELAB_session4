@@ -10,6 +10,7 @@ In the end, we will fix the computeArea method, such that it will return height 
 
 After implementing computeArea, we will add a getter and setter for both height and width.
 
+Finally, we will add the Square class. This method will not inherit from the Rectangle class, because even though a square is mathematically a rectangle, here we are dealing with resizable rectangles, and a square is not a resizable rectangle! If the square class inherits from the rectangle class, it would have a contradiction with SOLID principles; more specifically, it would have a contradiction with Liskov Substitution Principle (LSP), because the square class could not guarantee the post-conditions of methods of the rectangle class.
 
 ## Questions
 
