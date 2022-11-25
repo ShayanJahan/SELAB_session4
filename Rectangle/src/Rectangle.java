@@ -8,6 +8,6 @@ public class Rectangle {
     }
 
     public int computeArea(){
-        return 15;
+        return this.height * this.width;
     }
 }

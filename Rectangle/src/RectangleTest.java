@@ -15,4 +15,10 @@ class RectangleTest {
         Rectangle rectangle = new Rectangle(10, 10);
         assertEquals(100, rectangle.computeArea());
     }
+
+    @Test
+    void fourAndEightShouldReturnThirtyTwo() {
+        Rectangle rectangle = new Rectangle(4, 8);
+        assertEquals(32, rectangle.computeArea());
+    }
 }
